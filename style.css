@@ -64,7 +64,7 @@ body{
     align-items: center;
     position: relative;
     
-    background-color: orange;
+    background-color: none;
     border: none;
     box-shadow: 0px 0px 20px rgb(241, 109, 27);
     background-image: url("sun.png");
@@ -87,7 +87,7 @@ body{
     position: absolute;
     height: 60px;
     width: 60px;
-    background-color: red;
+    background-color: none;
     animation-name: rotate;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -110,7 +110,7 @@ body{
     width: 45px;
     align-items: center;
     position: absolute;
-    background-color: aqua;
+    background-color: none;
     animation-name: rotate1;
     animation-iteration-count: infinite;
     animation-duration: 4s;
@@ -131,7 +131,7 @@ body{
     position:absolute;
     height: 50px;
     width: 50px;
-    background-color: green;
+    background-color: none;
     animation-name: rotate2;
     animation-iteration-count: infinite;
     animation-duration: 5s;
@@ -152,7 +152,7 @@ body{
     position: absolute;
     height: 45px;
     width: 45px;
-    background-color: yellow;
+    background-color: none;
     animation-name: rotate3;
     animation-iteration-count: infinite;
     animation-duration: 10s;
@@ -173,7 +173,7 @@ body{
     position: absolute;
     height: 50px;
     width: 50px;
-    background-color: brown;
+    background-color: none;
     animation-name: rotate4;
     animation-iteration-count: infinite;
     animation-duration: 15s;
