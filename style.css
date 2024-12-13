@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    border: 2px dotted rgba(77, 148, 228,0.6);
+}
+body{
+    background-color: black;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    height: 850px;
+    width: 850px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    background-color: orange;
+    border: none;
+    box-shadow: 0px 0px 20px rgb(241, 109, 27);
+    background-image: url("sun.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.MERCURY{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px rgb(246, 243, 243);
+    background-image: url("mercury.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+.EARTH{
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    position: absolute;
+    background-color: aqua;
+    animation-name: rotate1;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px rgb(246, 243, 243);
+    background-image: url("earth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.VENUS{
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    animation-name: rotate2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px rgb(246, 243, 243);
+    background-image: url("venus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.MARS{
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: yellow;
+    animation-name: rotate3;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px rgb(246, 243, 243);
+    background-image: url("mars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.JUPITER{
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    animation-name: rotate4;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px rgb(246, 243, 243);
+    background-image: url("jupiter.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg)  translate(120px);
+
+    }
+    to{
+        transform: rotate(360deg) translate(120px);
+
+    }
+}
+@keyframes rotate1{
+    from{
+        transform: rotate(0deg)  translate(275px);
+
+    }
+    to{
+        transform: rotate(360deg) translate(275px);
+
+    }
+}
+@keyframes rotate2{
+    from{
+        transform: rotate(0deg)  translate(200px);
+
+    }
+    to{
+        transform: rotate(360deg) translate(200px);
+
+    }
+}
+@keyframes rotate3{
+    from{
+        transform: rotate(0deg)  translate(350px);
+
+    }
+    to{
+        transform: rotate(360deg) translate(350px);
+
+    }
+}
+@keyframes rotate4{
+    from{
+        transform: rotate(0deg)  translate(420px);
+
+    }
+    to{
+        transform: rotate(360deg) translate(420px);
+
+    }
+}
